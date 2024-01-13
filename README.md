@@ -1,13 +1,13 @@
 # SofascoreBaseView Swift Package
 
-`SofascoreBaseView` is a Swift package that provides a foundation for creating custom views in iOS applications. It is an open class that
+**SofascoreBaseView** is a Swift package that provides a foundation for creating custom views in iOS applications. `BaseView` is an open class that
 extends `UIView` and conforms to the `BaseViewProtocol`, offering a structured approach to building views with common lifecycle methods.
 
 ## Installation
 
 ### Swift Package Manager
 
-To integrate `SofascoreBaseView` package into your Xcode project using Swift Package Manager, follow these steps:
+To integrate **SofascoreBaseView** package into your Xcode project using Swift Package Manager, follow these steps:
 
 1. Open your project in Xcode.
 2. Select "File" in the Navigation bar.
@@ -20,10 +20,11 @@ To integrate `SofascoreBaseView` package into your Xcode project using Swift Pac
 
 ### Basic Implementation
 
-1. Create a custom view by subclassing `BaseView`.
+Create a custom view by subclassing `BaseView`.
 
 ```swift
 class CustomView: BaseView {
+
     override func addViews() {
         // Add subviews to your custom view
     }
