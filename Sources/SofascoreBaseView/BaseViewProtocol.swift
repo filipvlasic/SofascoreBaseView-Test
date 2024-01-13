@@ -6,9 +6,6 @@
 */
 public protocol BaseViewProtocol {
 
-    /// Override this method in your subclass to add subviews to the BaseView.
-    /// This method is called during the initialization process.
-    /// Add all child views in this method.
     func addViews()
 
     func styleViews()
